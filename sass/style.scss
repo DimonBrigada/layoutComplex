@@ -1,0 +1,237 @@
+*{
+    box-sizing:border-box;
+}
+.first-screen{
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(/img/Rectangle.png);
+    max-height: 840px;
+    //height: 100vh;
+    text-align: center;
+}
+.first-screen-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top:15px;
+    margin: auto;
+    max-width: 1110px;
+    width: 90%;
+}
+.logo{
+    width: 134px;
+    height: 66px;
+}
+.header-menu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header-menu-link{
+    text-decoration: none;
+    color:#fafafa;
+    margin-right: 40px;
+    font-size: 14px;
+}
+.first-screen-title{
+    align-items: center;
+    color:#D4C17F;
+    margin-top: 248px;
+    font-size: 48px;
+    margin-bottom: 200px;
+}
+.first-screen-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adress, .phone {
+    color:#fafafa;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    display: flex;
+}
+.adress{
+    margin-right: 136px;
+    &:before{
+    content:'';
+    background: url(/img/metka.svg) no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 21px;
+    margin-right: 18px;
+    }
+}
+.phone{
+    &:before{
+    content:'';
+    background: url(/img/phone.svg) no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin-right: 18px;
+    }
+}
+.testimonials {
+    background: #242B33;
+    text-align: center;
+  }
+  
+  .testimonials-wrap {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 794px;
+    height: 180px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    position: relative;
+        &:after{
+            content:'';
+            position: absolute;
+            background: url(/img/II.png) no-repeat;
+            display: inline-block;
+            width: 275px;
+            height: 286px;
+            margin-right: 18px; 
+            right: -250px;
+        }
+  }
+  
+  .testimonials-colum {
+    text-align: center;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    .bick{
+        margin-top: 19px;
+    }
+  }
+  .testimonials-title {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color:#fafafa;
+  }
+  .appartments{
+    background: #242B33;
+  }
+  .container-appartments{
+    max-width: 1110px;
+    width: 90%;
+    margin:auto;
+  }
+  .appartments-title{
+      color:#D4C17F;
+      margin: 0;
+      font-family: 'Raleway', sans-serif;
+      font-size: 36px;
+      margin-left: 10px;
+      margin-bottom: 70px;
+  }
+  .appartments-main{
+    display: flex;
+    flex-wrap: wrap;
+    &:before{
+        content:'';
+        position: absolute;
+        background: url(/img/III.png) no-repeat;
+        display: inline-block;
+        width: 425px;
+        height: 286px;
+        top: 1150px;
+        left: 0;
+    }
+  }
+  .appartments-image{
+    padding: 15px 10px;
+    flex: 0 1 25%;
+    z-index: 10;
+  }
+  .card-title{
+    color:#fafafa;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: -71px;
+    margin-left: 30px;
+  }
+  .info{
+    height: 560px;
+    background: url(/img/fon2.jpg);  
+    display: flex;
+  }
+  .info-block{
+    margin: auto;
+    max-width: 1110px;
+    width: 90%;
+    display:flex;
+    justify-content: space-between;
+  }
+  .text-block{
+    max-width: 525px;
+  }
+  .info-text{
+  max-width: 525px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color:#fff;
+  }
+.info-title{
+  font-size: 36px;
+  line-height: 48px;
+  color:#D4C17F;
+  margin-bottom: 50px;
+}
+.btn-text{
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color:#fff;
+  font-family: 'Raleway', sans-serif;
+}
+.btn-name{
+  background: #FFFFFF;
+  opacity: 0.2;
+  margin-right: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  line-height: 27px;
+  color:#BEBEBE;
+  font-weight: bold;
+}
+.btn-phone{
+  background: #FFFFFF;
+  opacity: 0.2;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  line-height: 27px;
+  background:rgba(210, 210, 210, 1);
+  font-weight: bold;
+}
+.btn-primery{
+  color:#fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  background:#D4C17F;
+  font-weight: bold;
+  border:none;
+}
+.btn{
+  width: 255px;
+  height: 50px;
+}
+.colums{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 540px;
+  margin-top: 90px;
+}
